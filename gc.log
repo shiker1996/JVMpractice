@@ -1,0 +1,18 @@
+Java HotSpot(TM) 64-Bit Server VM (24.79-b02) for windows-amd64 JRE (1.7.0_79-b15), built on Apr 10 2015 12:36:16 by "java_re" with unknown MS VC++:1600
+Memory: 4k page, physical 8286436k(3350376k free), swap 9138404k(3128056k free)
+CommandLine flags: -XX:InitialHeapSize=1073741824 -XX:MaxHeapSize=1073741824 -XX:MaxNewSize=943718400 -XX:NewSize=943718400 -XX:+PrintGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:SurvivorRatio=1 -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseSerialGC 
+4.381: [GC4.381: [DefNew: 307200K->182615K(614400K), 0.1821557 secs] 307200K->182615K(741376K), 0.1822856 secs] [Times: user=0.11 sys=0.06, real=0.18 secs] 
+9.517: [GC9.517: [DefNew (promotion failed) : 489815K->464730K(614400K), 0.3091456 secs]9.826: [Tenured: 126976K->126976K(126976K), 0.2168418 secs] 489815K->339101K(741376K), [Perm : 7591K->7591K(21248K)], 0.5260825 secs] [Times: user=0.44 sys=0.08, real=0.52 secs] 
+16.504: [Full GC16.504: [Tenured: 126976K->81872K(126976K), 0.1005374 secs] 741375K->81872K(741376K), [Perm : 7669K->7669K(21248K)], 0.1005940 secs] [Times: user=0.09 sys=0.00, real=0.10 secs] 
+21.340: [GC21.340: [DefNew: 307200K->307200K(614400K), 0.0000193 secs]21.341: [Tenured: 81872K->126975K(126976K), 0.1393429 secs] 389072K->192867K(741376K), [Perm : 7690K->7690K(21248K)], 0.1394275 secs] [Times: user=0.14 sys=0.00, real=0.14 secs] 
+30.306: [Full GC30.306: [Tenured: 126975K->126975K(126976K), 0.3141229 secs] 741374K->592639K(741376K), [Perm : 7695K->7692K(21248K)], 0.3141795 secs] [Times: user=0.31 sys=0.00, real=0.31 secs] 
+33.059: [Full GC33.059: [Tenured: 126975K->126975K(126976K), 0.1399984 secs] 741375K->138120K(741376K), [Perm : 7693K->7693K(21248K)], 0.1400588 secs] [Times: user=0.14 sys=0.00, real=0.14 secs] 
+42.668: [Full GC42.668: [Tenured: 126975K->126975K(126976K), 0.3228333 secs] 741375K->558560K(741376K), [Perm : 7697K->7697K(21248K)], 0.3228960 secs] [Times: user=0.33 sys=0.00, real=0.32 secs] 
+46.017: [Full GC46.017: [Tenured: 126975K->126975K(126976K), 0.1304739 secs] 741374K->138172K(741376K), [Perm : 7698K->7698K(21248K)], 0.1305286 secs] [Times: user=0.13 sys=0.00, real=0.13 secs] 
+55.714: [Full GC55.714: [Tenured: 126975K->126975K(126976K), 0.3100012 secs] 741375K->563898K(741376K), [Perm : 7702K->7702K(21248K)], 0.3100730 secs] [Times: user=0.31 sys=0.00, real=0.31 secs] 
+58.783: [Full GC58.783: [Tenured: 126975K->126975K(126976K), 0.1305592 secs] 741374K->138169K(741376K), [Perm : 7706K->7706K(21248K)], 0.1306140 secs] [Times: user=0.13 sys=0.00, real=0.13 secs] 
+68.346: [Full GC68.346: [Tenured: 126975K->126975K(126976K), 0.2885448 secs] 741374K->561651K(741376K), [Perm : 7707K->7707K(21248K)], 0.2886063 secs] [Times: user=0.28 sys=0.00, real=0.29 secs] 
+71.633: [Full GC71.633: [Tenured: 126975K->126975K(126976K), 0.1291342 secs] 741374K->138068K(741376K), [Perm : 7709K->7709K(21248K)], 0.1291856 secs] [Times: user=0.13 sys=0.00, real=0.13 secs] 
+81.625: [Full GC81.625: [Tenured: 126975K->126975K(126976K), 0.3133711 secs] 741374K->577933K(741376K), [Perm : 7711K->7711K(21248K)], 0.3134266 secs] [Times: user=0.31 sys=0.00, real=0.31 secs] 
+84.669: [Full GC84.669: [Tenured: 126975K->126975K(126976K), 0.1336882 secs] 741374K->138016K(741376K), [Perm : 7711K->7711K(21248K)], 0.1337505 secs] [Times: user=0.14 sys=0.00, real=0.13 secs] 
+94.602: [Full GC94.602: [Tenured: 126975K->126975K(126976K), 0.3068144 secs] 741374K->574907K(741376K), [Perm : 7713K->7713K(21248K)], 0.3068714 secs] [Times: user=0.31 sys=0.00, real=0.31 secs] 

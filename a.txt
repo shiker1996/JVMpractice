@@ -1,0 +1,27 @@
+Deadlock Detection:
+
+No deadlocks found.
+
+Thread 14: (state = BLOCKED)
+
+
+Thread 13: (state = BLOCKED)
+
+
+Thread 12: (state = BLOCKED)
+ - java.lang.Object.wait(long) @bci=0 (Interpreted frame)
+ - java.lang.ref.ReferenceQueue.remove(long) @bci=44, line=135 (Interpreted frame)
+ - java.lang.ref.ReferenceQueue.remove() @bci=2, line=151 (Interpreted frame)
+ - java.lang.ref.Finalizer$FinalizerThread.run() @bci=36, line=209 (Interpreted frame)
+
+
+Thread 11: (state = BLOCKED)
+ - java.lang.Object.wait(long) @bci=0 (Interpreted frame)
+ - java.lang.Object.wait() @bci=2, line=503 (Interpreted frame)
+ - java.lang.ref.Reference$ReferenceHandler.run() @bci=46, line=133 (Interpreted frame)
+
+
+Thread 5: (state = BLOCKED)
+ - chapter3.DumpOOM.main(java.lang.String[]) @bci=16, line=9 (Interpreted frame)
+
+
